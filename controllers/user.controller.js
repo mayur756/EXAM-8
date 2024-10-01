@@ -4,7 +4,7 @@ const {sendOTP , sendingMail} = require("../services/useremail");
 
 // default email admin
 const defaultAdmin = {
-  email: "diyoraharsh6@gmail.com",
+  email: "mayurngohil756@gmail.com",
   isAdmin: true,
   verified: true,
 };
