@@ -1,13 +1,12 @@
 const nodemailer = require('nodemailer');
 
-// Function to send OTP via email
 const  sendOTP = async (email, otp) => {
 
     const otpsend = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: "diyoraharsh6@gmail.com",
-        pass: "xrsj twdh fcfl ofdt",
+        user: "mayurngohil756@gmail.com",
+        pass: "uxqw site xvum xqer",
       },
     });
 
@@ -26,13 +25,13 @@ const sendingMail = (to, subject, html) => {
   const sendmail = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: "diyoraharsh6@gmail.com",
-      pass: "xrsj twdh fcfl ofdt",
+      user: "mayurngohil7566@gmail.com",
+      pass: "uxqw site xvum xqer",
     },
   });
 
   const mailOptions = {
-          from: "diyoraharsh6@gmail.com",
+          from: "mayurngohil756@gmail.com",
           to: to,
           subject,
           html
